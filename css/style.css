@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* logo and title style */
+.logo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+header{
+    background-color: white;
+    height: 100px;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h1{
+    display: inline;
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    vertical-align: top;
+}
+
+h2 {
+    padding-left: 50px;
+    padding-top: 20px;
+    color: rgb(77, 81, 89);
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* box */
+.box{
+    background-color: white;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+/* buttons */
+.button{
+    border-radius: 12px;
+    margin: 8px 50px;
+    padding: 30px 10px;
+    margin-bottom:-10px;
+}
+
+#task{
+    background-color: rgb(71, 173, 241);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 26px;
+    text-decoration: none;
+    border: none;
+}
+
+#section{
+    background-color: white;
+    color: rgb(200, 206, 210);
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 26px;
+    border-color: rgb(200, 206, 210);
+}
+
+/* bolle */
+.bolla{
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* colors */
+.gray{
+    border-top: 5px solid rgb(250, 251, 251);
+}
+
+.blue{
+    background-color: rgb(69, 171, 233);
+}
+
+.pink{
+    background-color: rgb(216, 99, 160);
+}
+
+.green{
+    background-color: rgb(176, 201, 38);
+}
+
+.orange{
+    background-color: rgb(242, 157, 51);
+}
+
+.purple{
+    background-color: rgb(156, 114, 228);
+}
+
+.grn-acqua{
+    background-color: rgb(100, 192, 168);
+}
+
+.cerchio-verde{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 2px rgb(100, 192, 169) solid;
+    color: rgb(100, 192, 169);
+    text-align: center;
+}
+
+.cerchio-rosso{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 2px rgb(235, 90, 84) solid;
+    color: rgb(235, 90, 84);
+    text-align: center;
+}
+
+/* done tick */
+.done{
+    color: rgb(100, 192, 169);
+}
+
+.not-done{
+    color: rgb(235, 90, 84);
+}
+
+.assignment{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(95, 99, 106);
+}
