@@ -7,7 +7,7 @@
 
 ul{
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 /* logo and title style */
@@ -66,7 +66,7 @@ body{
     border-radius: 8px;
     padding: 10px 26px;
     text-decoration: none;
-    border: none;
+    border: 1px solid;
 }
 
 #section{
@@ -76,6 +76,7 @@ body{
     border-radius: 8px;
     padding: 10px 26px;
     border-color: rgb(200, 206, 210);
+    border: 1px solid;
 }
 
 /* bolle */
