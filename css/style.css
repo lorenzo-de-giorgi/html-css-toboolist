@@ -10,6 +10,14 @@ ul{
     margin-bottom: 30px;
 }
 
+/* main */
+main{
+    max-width: 1200px;
+    margin: 30px auto;
+    border-radius: 12px;
+    background-color: white;
+}
+
 /* logo and title style */
 .logo{
     margin-left: 30px;
@@ -40,15 +48,7 @@ h2 {
 
 body{
     background-color: #f6f8f9;
-}
-
-/* box */
-.box{
-    background-color: white;
-    width: 80%;
-    height: 700px;
-    margin: auto;
-    border-radius: 12px;
+    padding: 10px;
 }
 
 /* buttons */
